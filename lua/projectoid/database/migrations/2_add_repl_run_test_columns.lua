@@ -1,0 +1,5 @@
+return {
+  [[ALTER TABLE projects ADD COLUMN repl VARCHAR(255) DEFAULT ""]],
+  [[ALTER TABLE projects ADD COLUMN run VARCHAR(255) DEFAULT ""]],
+  [[ALTER TABLE projects ADD COLUMN test VARCHAR(255) DEFAULT ""]],
+}
